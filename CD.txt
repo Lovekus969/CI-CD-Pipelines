@@ -1,0 +1,66 @@
+2. Continuous Delivery (CD)
+
+After CI succeeds:
+
+Build ✓
+Tests ✓
+
+The application is automatically prepared for deployment.
+
+Developer
+   ↓
+GitHub
+   ↓
+CI Pipeline
+   ↓
+Build Artifact
+   ↓
+Staging Environment
+
+A human may still click "Deploy".
+
+3. Continuous Deployment
+
+This goes one step further.
+
+When tests pass:
+
+Code Push
+   ↓
+Build
+   ↓
+Tests
+   ↓
+Deploy Automatically
+   ↓
+Production
+
+No manual approval required.
+
+Example:
+
+You update a website.
+Push to GitHub.
+5 minutes later the live website is updated automatically.
+Real-World Example at a Bank
+
+Suppose you're working at a bank like TD Bank.
+
+You fix a bug in the mobile app.
+
+Step 1: Push Code
+      git push
+Step 2: CI Pipeline
+
+      Pipeline automatically:
+      
+      Compile Java Code
+      Run JUnit Tests
+      Security Scan
+Code Quality Scan
+Step 3: CD Pipeline
+      Create Docker Image
+      Upload to Cloud
+      Deploy to Test Environment
+Step 4: Production
+      Deploy to Customers
