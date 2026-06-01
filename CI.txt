@@ -1,0 +1,36 @@
+1. Continuous Integration (CI)
+
+Imagine you and 10 developers are working on the same project.
+
+Without CI:
+
+Everyone writes code separately.
+At the end of the week, all code is merged.
+Many bugs and conflicts appear.
+
+With CI:
+
+Every time a developer pushes code to GitHub, the system automatically:
+Downloads the code
+Builds the application
+Runs tests
+Reports errors
+Example
+
+You push code:
+
+git push origin main
+
+CI pipeline automatically:
+
+GitHub
+   ↓
+Build Project
+   ↓
+Run Unit Tests
+   ↓
+Check Code Quality
+   ↓
+Pass or Fail
+
+If tests fail, the team is notified immediately.
