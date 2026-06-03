@@ -64,3 +64,36 @@ Step 3: CD Pipeline
       Deploy to Test Environment
 Step 4: Production
       Deploy to Customers
+
+
+CD = Continuous Delivery / Continuous Deployment
+         
+         After CI finishes successfully, CD takes over.
+
+Continuous Delivery
+
+         Code is automatically prepared for production, but a human approves the final deployment.
+                           
+                           Code
+                            ↓
+                           Build
+                            ↓
+                           Test
+                            ↓
+                           Ready for Production
+                            ↓
+                           Manual Approval
+                            ↓
+                           Deploy
+Continuous Deployment
+            Everything is automated.
+
+                           Code
+                            ↓
+                           Build
+                            ↓
+                           Test
+                            ↓
+                           Deploy Automatically
+
+No human approval is needed.
