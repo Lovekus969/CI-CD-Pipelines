@@ -36,3 +36,7 @@ Pass or Fail
 If tests fail, the team is notified immediately.
 
 Ci ( Continous Interigation) 
+            @GetMapping("/hello")
+            public String hello() {
+                return "Hello World";
+            }
