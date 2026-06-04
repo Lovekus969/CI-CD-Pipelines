@@ -34,3 +34,5 @@ Check Code Quality
 Pass or Fail
 
 If tests fail, the team is notified immediately.
+
+Ci ( Continous Interigation) 
