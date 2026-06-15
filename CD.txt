@@ -1,5 +1,8 @@
 CI/CD is a software development practice where code changes are automatically integrated, tested, and deployed. Continuous Integration (CI) focuses on automatically building and testing code whenever changes are committed, while Continuous Delivery/Deployment (CD) automates the release process, enabling faster and more reliable software delivery.
 
+An extension of Continuous Delivery where every successful change is automatically deployed to production without manual approval.
+
+Goal: Deliver features to users as quickly as possible.
 2. Continuous Delivery (CD)
 
 After CI succeeds:
