@@ -102,3 +102,13 @@ Continuous Deployment
                            Deploy Automatically
 
 No human approval is needed.
+
+Git commands
+
+git clone
+git add
+git commit
+git push
+git pull
+git merge
+git branch
